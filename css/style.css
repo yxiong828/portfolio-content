@@ -1,0 +1,169 @@
+/*Skip to Main Function*/
+.skip a {
+    position: absolute;
+    top: -40px;
+    z-index: 1;
+    color: black;
+}
+
+.skip a:focus {
+    position: absolute;
+    top: 0;
+    color: black;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    margin: 5px;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+
+.navigation li{
+    margin-bottom: 2px;
+    margin-left: 20px;
+    padding: 2px;
+    display: inline;
+    letter-spacing: 4px;
+}
+
+.a :link {
+    color: black;
+    text-decoration: none;
+}
+
+
+.a :active {
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}
+
+.a :visited{
+    color: grey;
+    text-decoration: none;
+}
+
+.a :hover {
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: larger;
+}
+
+
+body {
+    background-color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h2 {
+    font-size: 32px;
+    text-align: left;
+    font-weight: 200;
+    margin: 8px;
+    padding: 28px 8px 8px 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-indent: 50px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 1px;
+}
+
+footer {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    width: auto;
+    color: brown;
+    text-align: center;
+    padding: 20px;
+}
+
+#header img[src = "images/favicon.jpeg"] {
+    position: relative;
+    margin-top: 8px;
+    margin-left: 8px;
+    padding: 2px;
+    width: 5%;
+    border: none;
+}
+
+#main img[src = "images/cooking1.jpeg"] {
+    position: relative;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 65%;
+    border: none;
+
+}
+
+
+#main figcaption{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#body img[src = "../images/favicon.jpeg"] {
+    position: relative;
+    margin-top: 8px;
+    margin-left: 8px;
+    padding: 2px;
+    width: 5%;
+    border: none;
+}
+
+img {
+    height: auto;
+    width: 400px;
+    margin: 30px;
+    border: none;
+    padding: 5px;
+}
+
+img:hover {
+    opacity: 0.5;
+    border: 3px solid chocolate;
+}
+
+
+figcaption {
+    margin-left: 22px;
+    margin-top: -30px;
+    font-size: large;
+    margin-bottom: 10px;
+    padding: 5px 10px 10px;
+}

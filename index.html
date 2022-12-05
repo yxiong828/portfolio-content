@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasting the World</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="https://kit.fontawesome.com/65e2ade40d.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/favicon_io/favicon.ico">
+</head>
+
+
+
+<body>
+    <script>
+        const changeColor = () => {
+            document.getElementById('changeColor').classList.toggle('changeOrange');
+        }
+    </script>
+
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <div class="container">
+    
+    <header id="header">
+
+        <nav class="navigation">
+            <ul>
+                <li class="a"><a href="index.html" class="active">HOME</a></li>
+				<li class="a"><a href="html/projectgallarypage.html">GALLERY</a></li>
+                <li class="a"><a href="html/recipepage2.html">RECIPE 1</a></li>
+                <li class="a"><a href="html/recipepage1.html">RECIPE 2</a></li>
+    
+            </ul>
+        </nav>
+        <h1 id="changeColor" class="changeOrange" onclick="changeColor()">Tasting the World</h1>
+
+    </header>
+    
+    <main id="main">
+        <figure>
+			<img id="cooking" src="images/cooking1.jpeg" width="800" alt="Image of Lady Cooking">
+			<figcaption>A lady is cooking</figcaption>
+		</figure>
+
+        <h2>About the website</h2>
+
+		<p>
+			       A recipe is full of quantities, measurements, and instructions, but it is not just a formula. 
+            Often, it is a memory—of that week you were in Florence, or of your mom baking cookies, or of 
+            your homeland across the world. Which is to say: Often, it is personal. Discover original recipes curated by world-class chefs for a variety of cuisines, including
+            Chinese Dumplings, French Mushroom Pie, Japanese Sushi, Indian Fried Rice, Taiwan Pork Rice, 
+            Spanish Paella, Thai Curry Bowl, Korean Bibimbap, German Suassage with Sauerkraut...
+                
+		</p>
+
+        <p>
+            Tasting the World this here to help you cook delicious meals with less stress and more joy. We offer recipes and cooking 
+            advice for home cooks, by home cooks. Helping create “kitchen wins” is what we’re all about.
+
+        </p>
+
+
+    </main>
+
+    <aside id="aside">
+        <p>
+            Tasting the world is here to help you cook delicious meals with less stress and more joy.
+            We has been the ultimate food resource for the home cook, with daily kitchen tips, fun cooking videos, 
+            and, oh yeah, over 20 countries recipes.
+        </p>
+
+        <p>
+            Check out our new recipes: Chinese Dumplings, Japanese Sushi, Korean Bimbimbap, and many more!
+        </p>
+
+        <p> CONTACT:
+
+            Thank you for stopping by at Tasting the World Cookbook! You are welcome to drop a message to contact me by sending an email. I read every reader’s message and I will try my best to get back to you as soon as possible!
+
+            Unfortunately, sometimes the email ended up in my spam inbox or never delivered. If you didn’t get reply from me in a week, you could try resend the message again.
+
+            Thank you for visiting my blog and happy cooking!
+        </p>
+
+
+    </aside>
+
+    
+	<footer id="footer">
+        <form
+        action="https://formspree.io/f/xdojpyao"
+        method="POST"
+      >
+        <label>
+          Your email:
+          <input type="email" name="email">
+        </label>
+        <label>
+          Your message:
+          <input name="message">
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">submit</button>
+      </form>
+      
+	
+        <i class="fa-solid fa-earth-americas" id="icon"></i>
+
+        &copy; 2022 by Rita Xiong
+	</footer>
+    </div>
+
+</body>
+
+
+</html>
